@@ -16,6 +16,7 @@ const FILTERS: { value: TodoFilter; label: string }[] = [
   { value: 'all', label: '전체' },
   { value: 'active', label: '진행 중' },
   { value: 'completed', label: '완료' },
+  { value: 'test1', label: '이건 테스트' },
 ];
 
 const TodoForm = () => {
