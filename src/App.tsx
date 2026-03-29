@@ -47,7 +47,7 @@ const TodoForm = () => {
         autoComplete="off"
       />
       <button type="submit" className="btn btn-primary" id="add-btn">
-        추가
+        추가 추가
       </button>
     </form>
   );
