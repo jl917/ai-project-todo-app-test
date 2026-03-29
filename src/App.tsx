@@ -21,7 +21,7 @@ const FILTERS: { value: TodoFilter; label: string }[] = [
 const TodoForm = () => {
   const setTodos = useSetAtom(todosAtom);
   const [text, setText] = useState('');
-  console.log(text);
+  console.log(text2);
   const onSubmit = (e: FormEvent) => {
     e.preventDefault();
     const t = text.trim();
