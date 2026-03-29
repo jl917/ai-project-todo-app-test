@@ -36,7 +36,7 @@ const TodoForm = () => {
   return (
     <form className="todo-form" onSubmit={onSubmit}>
       <label className="sr-only" htmlFor="new-todo">
-        새할일
+        새 할 일
       </label>
       <input
         id="new-todo"
