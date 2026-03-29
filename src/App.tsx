@@ -46,7 +46,7 @@ const TodoForm = () => {
         placeholder="할 일을 입력하세요"
         autoComplete="off"
       />
-      <button type="submit" className="btn btn-primary">
+      <button type="submit" className="btn btn-primary" className="test1">
         추가
       </button>
     </form>
