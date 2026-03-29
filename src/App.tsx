@@ -90,7 +90,7 @@ const TodoItem = ({ todo }: { todo: Todo }) => {
           onClick={remove}
           aria-label={`삭제: ${todo.text}`}
         >
-          삭제
+          삭제(Delete)
         </button>
       </div>
     </li>
