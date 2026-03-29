@@ -21,7 +21,7 @@ const FILTERS: { value: TodoFilter; label: string }[] = [
 const TodoForm = () => {
   const setTodos = useSetAtom(todosAtom);
   const [text, setText] = useState('');
-  console.log(text2);
+
   const onSubmit = (e: FormEvent) => {
     e.preventDefault();
     const t = text.trim();
@@ -46,8 +46,8 @@ const TodoForm = () => {
         placeholder="할 일을 입력하세요"
         autoComplete="off"
       />
-      <button type="submit" className="btn btn-primary" id="add-btn">
-        추가 추가
+      <button type="submit" className="btn btn-primary">
+        추가
       </button>
     </form>
   );
@@ -90,7 +90,7 @@ const TodoItem = ({ todo }: { todo: Todo }) => {
           onClick={remove}
           aria-label={`삭제: ${todo.text}`}
         >
-          삭제(Delete)
+          삭제
         </button>
       </div>
     </li>
